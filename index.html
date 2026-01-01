@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pertamaku</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(120deg, #1e3c72, #2a5298);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: #00e6e6;
+            color: black;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #00b3b3;
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 50px 20px;
+            background: white;
+            color: black;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: #f2f2f2;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Halo, Saya Programmer 🚀</h1>
+        <p>Website sederhana, modern, dan responsif</p>
+        <a href="#tentang" class="btn">Tentang Saya</a>
+    </header>
+
+    <section id="tentang">
+        <h2>Keahlian Saya</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Membuat struktur website</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Mendesain website agar menarik</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Membuat website interaktif</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 | Website oleh Ransi Naim
+    </footer>
+
+    <script>
+        alert("Selamat datang di website saya!");
+    </script>
+
+</body>
+</html>
